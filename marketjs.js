@@ -56,25 +56,25 @@ var swiper = new Swiper(".mySwiper", {
   }
 
 
-  window.onload = () =>{
+  // window.onload = () =>{
 
-    // if(window.scrollY > 80){
-    //   document.querySelector('#modal-3').classList.add('them');
-    // }else{
-    //   document.querySelector('#modal-3').classList.remove('them');
-    // }
+  //   // if(window.scrollY > 80){
+  //   //   document.querySelector('#modal-3').classList.add('them');
+  //   // }else{
+  //   //   document.querySelector('#modal-3').classList.remove('them');
+  //   // }
   
-    fadeOut();
+  //   fadeOut();
   
-  }
+  // }
   
-  function loader(){
-    document.querySelector('#modal-3').classList.add('them');
-  }
+  // function loader(){
+  //   document.querySelector('#modal-3').classList.add('them');
+  // }
   
-  function fadeOut(){
-    setTimeout(loader, 5000);
-  }
+  // function fadeOut(){
+  //   setTimeout(loader, 5000);
+  // }
 
   document.querySelector('#login-exit3'). onclick = () =>{
     document.querySelector('#modal-3').classList.remove('them');
@@ -91,4 +91,10 @@ document.querySelector('#brand').onclick = () =>{
   chan2.classList.remove('home1');
   chan3.classList.toggle('home1');
 
+}
+document.querySelector('#home').onclick = () =>{
+  chan.style.display="block";
+  chan1.style.display="none";
+  chan2.classList.toggle('home1');
+  chan3.classList.remove('home1');
 }

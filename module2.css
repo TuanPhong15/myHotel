@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Quicksand_regular;
+    src: url("fonts/Quicksand_regular.ttf");
+ }
+ @font-face {
+    font-family: Quicksand_medium;
+    src: url("fonts/Quicksand_medium.ttf");
+ }
+ @font-face {
+    font-family: Quicksand_bold;
+    src: url("fonts/Quicksand_bold.ttf");
+ }
+.main_module2{
+    height: 200px;
+    width: 450px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 8px;
+}
+.picture_module2{
+    height: 200px;
+}
+.place_module2{
+    width: 16px;
+    height: 16px;
+    margin-top: -6px;
+}
+.anhphong{
+    height: 203px;
+}
+.grid__row_module2{
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+    width: 220px;
+}
+.grid__column_module2{
+    width: 90%;
+}
+
+.grow-1_module2{
+    width: 100%;
+    text-decoration: none;
+    color: #a4a4a4;
+    display: flex;
+}
+.row_module2{
+    padding: 0px;
+    list-style: none;
+}
+.anh1_module2{
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px ;
+
+}
+.tick_module2{
+    text-align: center;
+}
+.view_module2 {
+    width: 500px;
+    height: 250px;
+}
+.header_module2{
+    font-size: 15px;
+    color: black;
+    font-family: "Quicksand_medium";
+}

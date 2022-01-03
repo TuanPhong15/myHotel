@@ -1,465 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="market1.css">
-    <link rel="stylesheet" href="basemarket.css">
-    <link rel="stylesheet" href="img1/kisspng-jeans-sam-rockwell-moon-fashion-actor-matt-smith-in-places-he-shouldn-39-t-be-templ-5b6e70584034c7.589539021533964376263.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="market1.css">
+  <link rel="stylesheet" href="basemarket.css">
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="module2.css">
+
+  <link rel="stylesheet"
+    href="img1/kisspng-jeans-sam-rockwell-moon-fashion-actor-matt-smith-in-places-he-shouldn-39-t-be-templ-5b6e70584034c7.589539021533964376263.png">
 </head>
+
 <body>
-    <div class="header">
-      <div class="header__market">
-        <div class="header__market-top">
-          <img src="./icon/avatar.png" class="icon-web"></img>
-             <a href="market.html" class="name-web">MyHotel</a>
-            
-             <div class="header__market-search">
-               <input type="text" placeholder="Tìm kiếm">
-               <button class="header__search-btn">
-                <i class="header__search-btn-icon fas fa-search"></i>
-              </button>
-             </div>
-              <div class="header__market-icon">
-                 <i class="fas fa-shopping-cart"></i>
-                 <i class="fas fa-bell"></i>
-                </div>
-                <div class="header__market-icon--user" id="log"><i class="fas fa-user"></i></div>
-                
+  <div class="header">
+    <div class="header__market">
+      <div class="header__market-top">
+        <img src="./icon/avatar.png" class="icon-web"></img>
+        <a href="market.html" class="name-web">MyHotel</a>
 
+        <div class="header__market-search">
+          <input type="text" placeholder="Tìm kiếm">
+          <button class="header__search-btn">
+            <i class="header__search-btn-icon fas fa-search"></i>
+          </button>
         </div>
-        <div class="header__market-nav">
-         
-            <div class="header__market-nav--bar home1" id="home">TRANG CHỦ</div>
-            <div class="male header__market-nav--bar1">NAM</div>
-            <div class="female header__market-nav--bar2">NỮ</div>
-            <div class="header__market-nav--bar3" id="brand">THƯƠNG HIỆU</div> 
-            <div class="header__market-nav--bar4">GIỚI THIỆU</div>
-            <div class="header__market-nav--bar5">LIÊN HỆ</div>
+        <div class="header__market-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <i class="fas fa-bell"></i>
         </div>
+        <div class="header__market-icon--user" id="log"><i class="fas fa-user"></i></div>
+
+
       </div>
+      <div class="header__market-nav">
 
+        <div class="header__market-nav--bar home1" id="home">TRANG CHỦ</div>
+        <div class="male header__market-nav--bar1">NAM</div>
+        <div class="female header__market-nav--bar2">NỮ</div>
+        <div class="header__market-nav--bar3" id="brand">THƯƠNG HIỆU</div>
+        <div class="header__market-nav--bar4">GIỚI THIỆU</div>
+        <div class="header__market-nav--bar5">LIÊN HỆ</div>
+      </div>
     </div>
-    <!-- trang chu -->
-    <div class="content" id="page__home">
-      <div class="content-slide">
-       <div class="swiper mySwiper">
+
+  </div>
+  <!-- trang chu -->
+  <div class="content" id="page__home">
+    <div class="content-slide">
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="./img/banner/banner.png" alt="" class="slide-img"></div>
           <div class="swiper-slide"><img src="./img/banner/banner2.png" alt="" class="slide-img"></div>
         </div>
         <div class="next"><i class="fas fa-chevron-circle-right" style="font-size: 48px;"></i></div>
         <div class="prev"><i class="fas fa-chevron-circle-left" style="font-size: 48px;"></i></div>
-       </div>
       </div>
-      <section class="content-trend"> 
-          <a href="#" class="grid__column-6 trend-male">
-            <p class="trend-2020">Xu hướng 2020</p>
-            <p class="category">Thời Trang Nam</p>
-          </a>
-          <a href="#" class="grid__column-6 trend-female">
-            <p class="trend-2020">Xu hướng 2020</p>
-            <p class="category">Thời Trang Nữ</p>
-          </a>
-      </section>
-      <section class="content-hot">
-        <h1 class="header">Điểm đến hấp dẫn </h1>
-        <div class="content-hot__product">
+    </div>
+    <section class="content-hot">
+      <h1 class="header">Điểm đến hấp dẫn </h1>
+      <div class="content-hot__product">
         <div class="swiper hotSwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide product grid__column-3">
-          
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
- 
-             </div>
-            <div class="swiper-slide product grid__column-3">
+            <div class="view_module2">
+              <!-- <div class="module_view"> -->
 
-              <div class="product-img">
-               <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-              </div>
-              <div class="product-title">
-                <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                <div class="product-title__hot">
-                  <p class="hot-price">2.290.000đ</p>
-                  <i class="hot-icon fas fa-shopping-cart"></i>
+              <div class="main_module2">
+                <div class="picture_module2">
+                    <img src="module 2/image 4.png"  class="anhphong">
                 </div>
-              </div>
-           </div>
-            <div class="swiper-slide product grid__column-3">
-             
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-    
-              </div> 
-            <div class="swiper-slide product grid__column-3">
-              
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-      
+               
                 
-            </div>
-            <div class="swiper-slide product grid__column-3">
-              
-              <div class="product-img">
-               <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-              </div>
-              <div class="product-title">
-                <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) </p>
-                <div class="product-title__hot">
-                  <p class="hot-price">2.290.000đ</p>
-                  <i class="hot-icon fas fa-shopping-cart"></i>
+                <div class="grid__row_module2">
+                    <div class="grid__column_module2">
+                        <ul class="row_module2">
+                            <li class="grow-1_module2">
+                                <img src="module 2/place.png" alt="" class="place_module2">
+                                <p class="header_module2" style="margin: 0; margin-top: -8px;" class>Grand Plaza Hanoi Hotel</p>
+                            </li>
+                            <li>
+                                <p style="margin: 0; font-size: 10px; margin-left: 2px; margin-top: 8px;">117 Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội</p>
+                            </li>
+                            <li style="display:flex; margin-top: 3px;">
+                              <div class="price_module1">
+                                <p class="current-price_module1">3,600,000
+                                <p style="font-size: 8px; margin-left:2px">đ/đêm</p>
+                                </p>
+                                <p style="margin-left: 30px;" class="base-price_module1">4,000,000đ</p>
+                              </div>
+                            </li>
+                            <li style="display: flex;">
+                                <img src="module 2/car.png" alt="" class="anh1_module2">
+                                <img src="module 2/bath.png" alt="" class="anh1_module2">
+                                <img src="module 2/drink.png" alt="" class="anh1_module2">
+                            </li>
+                            <li>
+                                <p style="margin: 0; font-size: 11px; margin-left: 2px; width: 80vmax;   word-break: break-word;                                ">* Bao gồm xe đưa đón sân bay, bồn tắm massage
+                                  </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-    
-              
-          </div>
-          <div class="swiper-slide product grid__column-3">
-              
-            <div class="product-img">
-             <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-            </div>
-            <div class="product-title">
-              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-              <div class="product-title__hot">
-                <p class="hot-price">2.290.000đ</p>
-                <i class="hot-icon fas fa-shopping-cart"></i>
-              </div>
-            </div>
-  
-            
-        </div>
-        <div class="swiper-slide product grid__column-3">
-              
-          <div class="product-img">
-           <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-          </div>
-          <div class="product-title">
-            <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-            <div class="product-title__hot">
-              <p class="hot-price">2.290.000đ</p>
-              <i class="hot-icon fas fa-shopping-cart"></i>
+                <div class="tick_module2" style="text-align: center; margin-right: 10px;">
+                    <ul class="row_module2">
+                        <li>
+                            <img src="module 2/heart.png" alt="" style="width: 24px ; height: 24px;">
+                        </li>
+                        <li>
+                            <img src="module 2/flag.png" alt="" style="width: 60px ; height: 80px;">
+                            <p style="margin: 0; font-size: 10px; margin-left: 0px;  margin-top: -100%; color: aliceblue;">800.000đ</p>
+                                <p style="margin: 0; font-size: 10px; margin-left: 0px; color: aliceblue;">Tiết kiệm</p>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
             </div>
           </div>
 
-          
+          </div>
+          <!-- </div> -->
+        </div>
       </div>
-      <div class="swiper-slide product grid__column-3">
-              
-        <div class="product-img">
-         <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-        </div>
-        <div class="product-title">
-          <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-          <div class="product-title__hot">
-            <p class="hot-price">2.290.000đ</p>
-            <i class="hot-icon fas fa-shopping-cart"></i>
-          </div>
-        </div>
 
-        
-    </div>
-          </div>
-        </div>
-        </div>
+    </section>
+    <section class="content-hot">
+      <h1>Gói độc quyền</h1>
+      <h3>Tận hưởng gói dịch vụ giá cả ưu đãi chỉ có tại MyHotel.</h3>
 
-      </section>
-      <section class="content-hot">
-        <h1>Gói độc quyền</h1>
-        <h3>Tận hưởng gói dịch vụ giá cả ưu đãi chỉ có tại MyHotel.</h3>
-
-        <div class="content-hot__product">
+      <div class="content-hot__product">
         <div class="swiper hotSwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide product grid__column-3">
-          
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
+
+            <div class="view_module1">
+              <div class="container_module1">
+                <div class="content_module1">
+                  <img class="image_module1" src="./img/banner/back_banner.png" />
+                  <img class="icon-heart_module1" src="./module/icon/heart.png" />
                 </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
+                <div class="detail_module1">
+                  <div>
+                    <p class="title_module1">Phòng đôi - P302B - A3</p>
+                    <div class="name-content_module1">
+                      <img class="icon-location_module1" src="module/icon/place.png" />
+                      <p class="name_module1">Grand Plaze Hanoi Hotel</p>
+                    </div>
+                  </div>
+                  <p style="    margin-top: 12px;margin-bottom: 12px;" class="address_module1">117 Trần Duy Hưng, Trung
+                    Hoà, Cầu Giấy, Hà Nội</p>
+                  <p class="room_module1">2 Khách - 1 Phòng ngủ</p>
+                  <div class="price_module1">
+                    <p class="current-price_module1">500,000
+                    <p class="unit">đ/đêm</p>
+                    </p>
+                    <p style="margin-left: 30px;" class="base-price_module1">800,000đ</p>
+                  </div>
+                  <div class="star_module1">
+                    <img class="icon-star_module1" src="./module/icon/star1.png" alt="">
+                    <img class="icon-star_module1" src="./module/icon/star1.png" alt="">
+                    <img class="icon-star_module1" src="./module/icon/star1.png" alt="">
+                    <img class="icon-star_module1" src="./module/icon/star1.png" alt="">
+                    <img class="icon-star_module1" src="./module/icon/star1.png" alt="">
+                    <p class="comment_module1">(243 đánh giá)</p>
+                  </div>
+                  <div class="discount_module1">
+                    <div class="arrow-left_module1"></div>
+                    <p class="count-discount_module1">37,5%</p>
                   </div>
                 </div>
- 
-             </div>
-            <div class="swiper-slide product grid__column-3">
+              </div>
+            </div>
 
-              <div class="product-img">
-               <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-              </div>
-              <div class="product-title">
-                <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                <div class="product-title__hot">
-                  <p class="hot-price">2.290.000đ</p>
-                  <i class="hot-icon fas fa-shopping-cart"></i>
-                </div>
-              </div>
-           </div>
-            <div class="swiper-slide product grid__column-3">
-             
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-    
-              </div> 
-            <div class="swiper-slide product grid__column-3">
-              
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-      
-                
-            </div>
-            <div class="swiper-slide product grid__column-3">
-              
-              <div class="product-img">
-               <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-              </div>
-              <div class="product-title">
-                <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) </p>
-                <div class="product-title__hot">
-                  <p class="hot-price">2.290.000đ</p>
-                  <i class="hot-icon fas fa-shopping-cart"></i>
-                </div>
-              </div>
-    
-              
-          </div>
-          <div class="swiper-slide product grid__column-3">
-              
-            <div class="product-img">
-             <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-            </div>
-            <div class="product-title">
-              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-              <div class="product-title__hot">
-                <p class="hot-price">2.290.000đ</p>
-                <i class="hot-icon fas fa-shopping-cart"></i>
-              </div>
-            </div>
-  
-            
-        </div>
-        <div class="swiper-slide product grid__column-3">
-              
-          <div class="product-img">
-           <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-          </div>
-          <div class="product-title">
-            <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-            <div class="product-title__hot">
-              <p class="hot-price">2.290.000đ</p>
-              <i class="hot-icon fas fa-shopping-cart"></i>
-            </div>
           </div>
 
-          
-      </div>
-      <div class="swiper-slide product grid__column-3">
-              
-        <div class="product-img">
-         <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-        </div>
-        <div class="product-title">
-          <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-          <div class="product-title__hot">
-            <p class="hot-price">2.290.000đ</p>
-            <i class="hot-icon fas fa-shopping-cart"></i>
-          </div>
-        </div>
-
-        
-    </div>
-          </div>
-        </div>
         </div>
         <div class="content-hot__product">
           <div class="swiper hotSwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide product grid__column-3">
-            
-                  <div class="product-img">
-                   <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                  </div>
-                  <div class="product-title">
-                    <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                    <div class="product-title__hot">
-                      <p class="hot-price">2.290.000đ</p>
-                      <i class="hot-icon fas fa-shopping-cart"></i>
-                    </div>
-                  </div>
-   
-               </div>
-              <div class="swiper-slide product grid__column-3">
-  
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-             </div>
-              <div class="swiper-slide product grid__column-3">
-               
-                  <div class="product-img">
-                   <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                  </div>
-                  <div class="product-title">
-                    <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                    <div class="product-title__hot">
-                      <p class="hot-price">2.290.000đ</p>
-                      <i class="hot-icon fas fa-shopping-cart"></i>
-                    </div>
-                  </div>
-      
-                </div> 
-              <div class="swiper-slide product grid__column-3">
-                
-                  <div class="product-img">
-                   <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                  </div>
-                  <div class="product-title">
-                    <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-                    <div class="product-title__hot">
-                      <p class="hot-price">2.290.000đ</p>
-                      <i class="hot-icon fas fa-shopping-cart"></i>
-                    </div>
-                  </div>
-        
-                  
-              </div>
-              <div class="swiper-slide product grid__column-3">
-                
-                <div class="product-img">
-                 <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-                </div>
-                <div class="product-title">
-                  <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) </p>
-                  <div class="product-title__hot">
-                    <p class="hot-price">2.290.000đ</p>
-                    <i class="hot-icon fas fa-shopping-cart"></i>
-                  </div>
-                </div>
-      
-                
-            </div>
-            <div class="swiper-slide product grid__column-3">
-                
-              <div class="product-img">
-               <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-              </div>
-              <div class="product-title">
-                <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-                <div class="product-title__hot">
-                  <p class="hot-price">2.290.000đ</p>
-                  <i class="hot-icon fas fa-shopping-cart"></i>
-                </div>
-              </div>
-    
-              
-          </div>
-          <div class="swiper-slide product grid__column-3">
-                
-            <div class="product-img">
-             <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-            </div>
-            <div class="product-title">
-              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used)</p>
-              <div class="product-title__hot">
-                <p class="hot-price">2.290.000đ</p>
-                <i class="hot-icon fas fa-shopping-cart"></i>
-              </div>
-            </div>
-  
-            
-        </div>
-        <div class="swiper-slide product grid__column-3">
-                
-          <div class="product-img">
-           <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-          </div>
-          <div class="product-title">
-            <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-            <div class="product-title__hot">
-              <p class="hot-price">2.290.000đ</p>
-              <i class="hot-icon fas fa-shopping-cart"></i>
-            </div>
-          </div>
-  
-          
-      </div>
-            </div>
-          </div>
-          </div>
-          <div class="xemthem">Xem them</div>
 
-      </section>
-    </div>
-    <!-- thuong hieu -->
-    <div class="content1" id="page__brand">
-      <section>
-        <div class="content__nav-bar"><p>Thương hiệu / Nike</p>
-          <select name="" id="" class="loc"> <option value="">Thứ tự mặc định</option>
+
+            </div>
+          </div>
+        </div>
+        <div class="xemthem">Xem them</div>
+
+    </section>
+  </div>
+  <!-- thuong hieu -->
+  <div class="content1" id="page__brand">
+    <section>
+      <div class="content__nav-bar">
+        <p>Thương hiệu / Nike</p>
+        <select name="" id="" class="loc">
+          <option value="">Thứ tự mặc định</option>
           <option value="">Thứ tự theo điểm đánh giá</option>
           <option value="">Thứ tự theo độ phổ biến</option>
-          </select>
-        </div>
-      </section>
-      <section class="sp">
-        <div class=" grid__column-4--8">
-          <div class="danh-muc">
+        </select>
+      </div>
+    </section>
+    <section class="sp">
+      <div class=" grid__column-4--8">
+        <div class="danh-muc">
           <div class="title__san-pham">Danh mục sản phẩm</div>
           <ul class="san-pham">
-            <li class="san-pham__nav">Quần 
+            <li class="san-pham__nav">Quần
               <i class="right-icon fas fa-chevron-right"></i>
             </li>
             <li class="san-pham__nav">Áo
@@ -487,196 +236,367 @@
             </li>
           </ul>
         </div>
-        </div>
-        <div class=" grid__column-4--4">
-          <div class="sp__thuong-hieu">
+      </div>
+      <div class=" grid__column-4--4">
+        <div class="sp__thuong-hieu">
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="sp__thuong-hieu  spth-1">
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
           <div class="product grid__column-3">
             <div class="product-img">
-              <img src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png" alt="">
-             </div>
-             <div class="product-title">
-               <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
-               <div class="product-title__hot">
-                 <p class="hot-price">2.290.000đ</p>
-                 <i class="hot-icon fas fa-shopping-cart"></i>
-               </div>
-             </div>
-     
+              <img
+                src="https://sneakerdaily.vn/wp-content/uploads/2021/03/air-jordan-5-retro-wolf-grey-440892-018-2nd-1.png"
+                alt="">
+            </div>
+            <div class="product-title">
+              <p class="product-title__note">Giày Air Jordan 5 Retro GG Wolf Grey(Used) limited free</p>
+              <div class="product-title__hot">
+                <p class="hot-price">2.290.000đ</p>
+                <i class="hot-icon fas fa-shopping-cart"></i>
+              </div>
+            </div>
+
           </div>
         </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+  <!-- chan trang -->
+
+  <footer class="footer">
+
+    <div class="grid">
+      <div class="grid__row">
+        <div class="grid__column-2-4">
+          <h3 class="footer__heading">GIỚI THIỆU</h3>
+          <div class="is-divider divider clearfix" style="max-width:35px;background-color:rgb(195, 0, 5);">
+          </div><!-- .divider -->
+          <p style="margin-top: 26px;">sản phẩm giúp người dùng đặt phòng, đặt dịch vụ phòng online từ thiết bị di động,
+            chủ phòng có các công cụ số hoá dịch vụ, kiểm soát chi tiêu, gia tăng thu nhập, hỗ trợ quản lý phòng. </p>
+
         </div>
-      </section>
+        <div class="grid__column-2-4">
+          <h3 class="footer__heading">ĐỊA CHỈ</h3>
+          <div class="is-divider divider clearfix" style="max-width:35px;background-color:rgb(195, 0, 5);">
+          </div><!-- .divider -->
+          <ul class="footer-list">
+            <li class="footer_item">
+              <img src="anhbangiay/Vector.png" alt="" class="footer__img">
+              <a href="" class="footer-item__link">
+                <p class="p-text">
+                  New SkyLine, Van Quan, Ha Dong, Ha Noi
+                </p>
+              </a>
+            </li>
+            <li class="footer_item">
+              <img src="anhbangiay/icon call 1.png" alt="" class="footer__img">
+              <a href="" class="footer-item__link">
+                <p class="p-text">
+                  0949561394
+                </p>
+              </a>
+            </li>
+            <li class="footer_item">
+              <img src="anhbangiay/Vector (1).png" alt="" class="footer__img">
+              <a href="" class="footer-item__link">
+                <p class="p-text">
+                  dotuanphog@gmail.com
+                </p>
+                <br>
+                <p class="p-text">
+                  mon@mona.media
+                </p>
+
+              </a>
+            </li>
+            <li class="footer_item">
+              <img src="anhbangiay/icon skype 1.png" alt="" class="footer__img">
+              <a href="" class="footer-item__link">
+                <p class="p-text">
+                  demonhunterp
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__column-2-4">
+          <h3 class="footer__heading">MENU</h3>
+          <div class="is-divider divider clearfix" style="max-width:35px;background-color:rgb(195, 0, 5);">
+          </div><!-- .divider -->
+          <div class="grid__row-2">
+            <div class="grid__column-2-4-2">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+
+                    <p style="margin-top: -8px; margin-left: 8px;" class="p-x">
+                      Trang chủ
+                    </p>
+
+
+
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+                    <p style="margin-top: -8px; margin-left: 8px;" class="p-x">
+                      Cửa hàng
+                    </p>
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+                    <p style="margin-top: -8px; margin-left: 8px;" class="p-x">
+                      Liên hệ
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="grid__column-2-4-2">
+
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+                    <p style="margin-top: -8px; margin-left: 8px;" class="p-x">
+                      Giới thiệu
+                    </p>
+
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">
+                    <p style="margin-top: -8px; margin-left: 8px;" class="p-x">
+                      Tin tức
+                    </p>
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="grid__column-2-4">
+          <h3 class="footer__heading">MẠNG XÃ HỘI</h3>
+          <div class="is-divider divider clearfix" style="max-width:35px;background-color:rgb(195, 0, 5);">
+          </div><!-- .divider -->
+
+          <a href="">
+            <img src="anhbangiay/facebook.png" alt="fb" class="img__mxh">
+          </a>
+          <a href="">
+            <img src="anhbangiay/instagram.png" alt="fb" class="img__mxh">
+          </a>
+          <a href="">
+            <img src="anhbangiay/twitter.png" alt="fb" class="img__mxh">
+          </a>
+          <a href="">
+            <img src="anhbangiay/icon pinterest .png" alt="fb" class="img__mxh" style="margin-bottom: -7px;">
+          </a>
+          <a href="">
+            <img src="anhbangiay/icon wifi_.png" alt="fb" class="img__mxh"
+              style="margin-bottom: -7px; margin-left: -5px;">
+          </a>
+
+
+        </div>
+      </div>
     </div>
 
+    <div class="is-divider-2"
+      style="max-width:100%;background: #a4a4a4; margin-left: 78px; margin-right: 78px; margin-top: 12px;">
+    </div><!-- .divider -->
+    <div class="grid">
 
+      <div class="grid__row">
+        <div class="grid__column-2-4">
 
+          <h3 class="h3-2">ĐĂNG KÝ THÔNG TIN</h3>
+        </div>
+        <div class="grid__column-2-4" style="width: 40%;">
 
+          <input type="text" placeholder="Email..." class="input__email"
+            style="font-style: italic; font-size: 16px; padding-left: 14px;">
+          <button class="button__register">ĐĂNG KÝ</button>
+        </div>
 
-    <!-- chan trang -->
-    <footer class="footer">
-      <div class="footer-column grid__column-4">
-        <b>Thông tin liên hệ</b>
-        <p>Email:2handonlinesupport@gmail.com</p>
-        <p>Hotline: 0123456789</p>
-        <p>Fanpage: 2handonline</p>
+        <div class="grid__column-2-4" style="width: 32%; margin-left: -62px;">
+          <a href="">
+            <img src="anhbangiay/payment1.png" alt="" class="img__card">
+            <img src="anhbangiay/payment2.png" alt="" class="img__card">
+            <img src="anhbangiay/payment3.png" alt="" class="img__card">
+            <img src="anhbangiay/payment4.png" alt="" class="img__card">
+            <img src="anhbangiay/payment5.png" alt="" class="img__card">
+          </a>
+        </div>
       </div>
-      <div class="footer-column grid__column-4">
-        <b>HỖ TRỢ & CHÍNH SÁCH</b>
-        <p>Hướng dẫn đặt hàng</p>
-        <p>Chính sách đổi trả</p>
-        <p>Chính sách bảo hành sản phẩm</p>
-        <p>Chính sách bảo mật </p>
-      </div>
-      <div class="footer-column grid__column-4">
-        <p>  Bản quyền thuộc về 2handonline và FourMedia.</p>
-      </div>
+    </div>
+    <div class="end__footer">
+      <h4>© Bản quyền thuộc về Mona Sneaker. Thiết kế website XYZ Media</h4>
+    </div>
+  </footer>
 
-    </footer>
-    <!-- Dangnhap -->
-    <div class="modal" id="modal-1">
-      <div class="modal__overlay"></div>
-        <div class="modal__body">
-      
-        <div class="auth-form">
-          <div class="auth-form__header">
-           
-            <img src='./icon/avatar.png'></img> 
-            <p class="auth-form__heading">MyHotel</p>
-            <div class="auth-form__header-icon" id="login-exit">
-              <i class="fas fa-times"></i>
-             </div>
+  <!-- Dangnhap -->
+  <div class="modal" id="modal-1">
+    <div class="modal__overlay"></div>
+    <div class="modal__body">
+
+      <div class="auth-form">
+        <div class="auth-form__header">
+
+          <img src='./icon/avatar.png'></img>
+          <p class="auth-form__heading">MyHotel</p>
+          <div class="auth-form__header-icon" id="login-exit">
+            <i class="fas fa-times"></i>
           </div>
-        
-          <div class="auth-form__container">
-          
-           
-           <div class="auth-form__form">
-             <div class="auth-form__group">
-               <input type="text" class="auth-form__input" placeholder="Số di động hoặc email">
-             </div>
-             <div class="auth-form__group-1">
-               <input type="password" class="auth-form__input" placeholder="Mật khẩu">
-             </div>
-             <div class="auth-password">
-              <a href="#" id="dk"class="create-account">Tạo tài khoản mới</a>
+        </div>
 
-               <a href="#" class="forgot-password">Quên mật khẩu?</a>
-              </div>
-             <div class="auth-form__button">
-               <p class="text-in_button">Đăng nhập</p>
-             </div>
-             <img class="or_button" src="./icon/or.png"></img>
+        <div class="auth-form__container">
 
-             <div class="auth-form__facebook">
+
+          <div class="auth-form__form">
+            <div class="auth-form__group">
+              <input type="text" class="auth-form__input" placeholder="Số di động hoặc email">
+            </div>
+            <div class="auth-form__group-1">
+              <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+            </div>
+            <div class="auth-password">
+              <a href="#" id="dk" class="create-account">Tạo tài khoản mới</a>
+
+              <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </div>
+            <div class="auth-form__button">
+              <p class="text-in_button">Đăng nhập</p>
+            </div>
+            <img class="or_button" src="./icon/or.png"></img>
+
+            <div class="auth-form__facebook">
               <img class="social_button" src="./icon/facebook.png"></img>
               <p class="text-in_facebook">Đăng nhập với Facebook</p>
 
-             </div>
-             <div class="auth-form__google">
+            </div>
+            <div class="auth-form__google">
               <img class="social_button" src="./icon/google.png"></img>
-              <p class="text-in_google">Đăng nhập với Google</p>
+              <p class="text-in_google2">Đăng nhập với Google</p>
 
-             </div>
-             <div class="auth-form__gt">
+            </div>
+            <div class="auth-form__gt">
               <p class="text-in_google">Giới thiệu</p>
               <p class="text-in_google">Trợ giúp</p>
               <p class="text-in_google">Xem thêm</p>
 
-             </div>
             </div>
           </div>
+        </div>
       </div>
-     </div> 
     </div>
-     <!-- Dangki -->
-     <div class="modal1" id="modal-2">
-      <div class="modal__overlay"></div>
-        <div class="modal__body">
-          <div class="auth-form__header">
-            <p class="auth-form__heading">Đăng kí</p>
-            <div class="auth-form__header-icon" id="login-exit1">
-              <i class="fas fa-times"></i>
-             </div>
-           </div>
-          
-        <div class="auth-form__dk">
-          <div class="auth-form__container">
-          
-           <div class="auth-form__form">
-             <div class="auth-form__group">
-               <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
-             </div>
-             <div class="auth-form__group">
-               <input type="password" class="auth-form__input" placeholder="Mật khẩu">
-             </div>
-             <div class="auth-form__group">
+  </div>
+  <!-- Dangki -->
+  <div class="modal1" id="modal-2">
+    <div class="modal__overlay"></div>
+    <div class="modal__body">
+      <div class="auth-form__header">
+        <p class="auth-form__heading">Đăng kí</p>
+        <div class="auth-form__header-icon" id="login-exit1">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+
+      <div class="auth-form__dk">
+        <div class="auth-form__container">
+
+          <div class="auth-form__form">
+            <div class="auth-form__group">
+              <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+            </div>
+            <div class="auth-form__group">
               <input type="text" class="auth-form__input" placeholder="Địa chỉ email/Số điện thoại">
             </div>
             <div class="auth-form__button">
@@ -685,55 +605,57 @@
             <img class="or_button" src="./icon/or.png"></img>
 
             <div class="auth-form__facebook">
-             <img class="social_button" src="./icon/facebook.png"></img>
-             <p class="text-in_facebook">Tiếp tục với Facebook</p>
+              <img class="social_button" src="./icon/facebook.png"></img>
+              <p class="text-in_facebook">Tiếp tục với Facebook</p>
 
             </div>
             <div class="auth-form__google">
-             <img class="social_button" src="./icon/google.png"></img>
-             <p class="text-in_google">Tiếp tục với Google</p>
+              <img class="social_button" src="./icon/google.png"></img>
+              <p class="text-in_google">Tiếp tục với Google</p>
 
             </div>
             <div class="auth-form__login">
-              <p>Bằng việc đăng kí, bạn đã đồng ý với MyHotel về <a href="#">Điều khoản dịch vụ</a> & <a href="#">Chính sách bảo mật</a> của chúng tôi</p>
+              <p>Bằng việc đăng kí, bạn đã đồng ý với MyHotel về <a href="#">Điều khoản dịch vụ</a> & <a href="#">Chính
+                  sách bảo mật</a> của chúng tôi</p>
             </div>
-            
-             
-            </div>
+
+
           </div>
+        </div>
       </div>
-     </div> 
     </div>
-    <!-- trang exit -->
-    <div class="modal2" id="modal-3" onclick="exit()">
-      <div class="modal__overlay"></div>
-      <div class="modal__body1">
-        
-        <div class="auth-form__exit">
-          <div class="auth-form__container">
-           <div class="auth-form__header-icon1" id="login-exit3" onclick="tat()">
+  </div>
+  <!-- trang exit -->
+  <div class="modal2" id="modal-3" onclick="exit()">
+    <div class="modal__overlay"></div>
+    <div class="modal__body1">
+
+      <div class="auth-form__exit">
+        <div class="auth-form__container">
+          <div class="auth-form__header-icon1" id="login-exit3" onclick="tat()">
             <i class="fas fa-times"></i>
-           </div>
           </div>
-          <div class="exit-title">
-            <p>Đăng kí nhận thông báo</p>
-            <p>ngay hôm nay</p>
-          </div>
-          <div class="exit-title_1">
-            <p>Nhận được thông tin sớm nhất về chương trình khuyến</p>
-            <p>mãi,các mặt hàng mới và nhiều ưu đãi khác!</p>
-          </div>
-          <div class="exit__login">
-            <input type="text" class="exit__login-input" placeholder="Địa chỉ email của bạn">
-          </div>
-          <div class="exit__login-button">
-            <p>Đăng ký!</p>
-          </div>
-       </div>
+        </div>
+        <div class="exit-title">
+          <p>Đăng kí nhận thông báo</p>
+          <p>ngay hôm nay</p>
+        </div>
+        <div class="exit-title_1">
+          <p>Nhận được thông tin sớm nhất về chương trình khuyến</p>
+          <p>mãi,các mặt hàng mới và nhiều ưu đãi khác!</p>
+        </div>
+        <div class="exit__login">
+          <input type="text" class="exit__login-input" placeholder="Địa chỉ email của bạn">
+        </div>
+        <div class="exit__login-button">
+          <p>Đăng ký!</p>
+        </div>
+      </div>
     </div>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./marketjs.js"></script>
 </body>
+
 </html>
