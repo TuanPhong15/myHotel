@@ -52,9 +52,12 @@ section{
     margin: 15px;
 }
 .grid__column-3{
-    flex-wrap: wrap;
-    width: 25%;
+    width: 500px;
     height: 418px;
+    margin-left: 140px;
+}
+.grid__column-5{
+    width: 100px;
 }
 .grid__column-4{
     flex-wrap: wrap;
@@ -73,6 +76,7 @@ section{
     padding-left: 5px;
     padding-right: 5px;
     width:35%;
+    border-radius: 8px;
 }
 .grid__column-4--4{
     flex-wrap: wrap;
