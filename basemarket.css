@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@font-face {
+    font-family: Quicksand_regular;
+    src: url("fonts/Quicksand_regular.ttf");
+ }
 :root{
     --white-color:#fff;
     --black-color:#333333;
@@ -6,7 +9,7 @@
 }
     
 *{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Quicksand_regular';
         margin:0; padding:0;
         box-sizing: border-box;
         outline: none; border:none;

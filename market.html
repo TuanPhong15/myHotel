@@ -605,27 +605,50 @@
         <div class="modal__body">
       
         <div class="auth-form">
-          <div class="auth-form__container">
-           <div class="auth-form__header">
-            <p class="auth-form__heading">Đăng nhập</p>
+          <div class="auth-form__header">
            
-           </div>
-           <div class="auth-form__header-icon" id="login-exit">
-            <i class="fas fa-times"></i>
-           </div>
+            <img src='./icon/avatar.png'></img> 
+            <p class="auth-form__heading">MyHotel</p>
+            <div class="auth-form__header-icon" id="login-exit">
+              <i class="fas fa-times"></i>
+             </div>
+          </div>
+        
+          <div class="auth-form__container">
+          
+           
            <div class="auth-form__form">
              <div class="auth-form__group">
-               <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+               <input type="text" class="auth-form__input" placeholder="Số di động hoặc email">
              </div>
              <div class="auth-form__group-1">
                <input type="password" class="auth-form__input" placeholder="Mật khẩu">
              </div>
-             <div class="auth-password"><a href="#" class="forgot-password">Quên mật khẩu?</a></div>
+             <div class="auth-password">
+              <a href="#" id="dk"class="create-account">Tạo tài khoản mới</a>
+
+               <a href="#" class="forgot-password">Quên mật khẩu?</a>
+              </div>
              <div class="auth-form__button">
-               <p>Đăng nhập</p>
+               <p class="text-in_button">Đăng nhập</p>
              </div>
-             <div class="auth-form__login">
-               <p>Nếu bạn chưa có tài khoản thì tạo tài khoản  <a href="#" id="dk">TẠI ĐÂY</a></p>
+             <img class="or_button" src="./icon/or.png"></img>
+
+             <div class="auth-form__facebook">
+              <img class="social_button" src="./icon/facebook.png"></img>
+              <p class="text-in_facebook">Đăng nhập với Facebook</p>
+
+             </div>
+             <div class="auth-form__google">
+              <img class="social_button" src="./icon/google.png"></img>
+              <p class="text-in_google">Đăng nhập với Google</p>
+
+             </div>
+             <div class="auth-form__gt">
+              <p class="text-in_google">Giới thiệu</p>
+              <p class="text-in_google">Trợ giúp</p>
+              <p class="text-in_google">Xem thêm</p>
+
              </div>
             </div>
           </div>
@@ -636,16 +659,16 @@
      <div class="modal1" id="modal-2">
       <div class="modal__overlay"></div>
         <div class="modal__body">
-      
+          <div class="auth-form__header">
+            <p class="auth-form__heading">Đăng kí</p>
+            <div class="auth-form__header-icon" id="login-exit1">
+              <i class="fas fa-times"></i>
+             </div>
+           </div>
+          
         <div class="auth-form__dk">
           <div class="auth-form__container">
-           <div class="auth-form__header">
-            <p class="auth-form__heading">Đăng kí</p>
-           
-           </div>
-           <div class="auth-form__header-icon" id="login-exit1">
-            <i class="fas fa-times"></i>
-           </div>
+          
            <div class="auth-form__form">
              <div class="auth-form__group">
                <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
@@ -654,17 +677,27 @@
                <input type="password" class="auth-form__input" placeholder="Mật khẩu">
              </div>
              <div class="auth-form__group">
-              <input type="text" class="auth-form__input" placeholder="Địa chỉ email">
+              <input type="text" class="auth-form__input" placeholder="Địa chỉ email/Số điện thoại">
             </div>
-            <div class="auth-form__group">
-              <input type="text" class="auth-form__input" placeholder="Số điện thoại">
+            <div class="auth-form__button">
+              <p>Tạo tài khoản!</p>
+            </div>
+            <img class="or_button" src="./icon/or.png"></img>
+
+            <div class="auth-form__facebook">
+             <img class="social_button" src="./icon/facebook.png"></img>
+             <p class="text-in_facebook">Tiếp tục với Facebook</p>
+
+            </div>
+            <div class="auth-form__google">
+             <img class="social_button" src="./icon/google.png"></img>
+             <p class="text-in_google">Tiếp tục với Google</p>
+
             </div>
             <div class="auth-form__login">
-              <p>Bằng cách tạo tài khoản tại 2handonline.com, bạn đồng ý với các <a href="#">Điều khoản-Điều kiện và Chính sách bảo mật </a> của chúng tôi</p>
+              <p>Bằng việc đăng kí, bạn đã đồng ý với MyHotel về <a href="#">Điều khoản dịch vụ</a> & <a href="#">Chính sách bảo mật</a> của chúng tôi</p>
             </div>
-             <div class="auth-form__button">
-               <p>Tạo tài khoản!</p>
-             </div>
+            
              
             </div>
           </div>
