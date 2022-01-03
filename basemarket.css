@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+    --white-color:#fff;
+    --black-color:#333333;
+    --yellow-color: #fbc65f;
+}
+    
+*{
+        font-family: 'Poppins', sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        outline: none; border:none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition:all .2s linear;
+        transition:width none;
+    }
+    
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow:scroll;
+}
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--black);
+}
+h1{
+    font-size: 24px;
+}
+section{
+    padding: 5rem 6.5%;
+}
+.grid__column-6{
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    margin: 15px;
+}
+.grid__column-3{
+    flex-wrap: wrap;
+    width: 25%;
+    height: 418px;
+}
+.grid__column-4{
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.33%;
+}
+.grid__column-2--4{
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:20%;
+}
+.grid__column-4--8{
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:35%;
+}
+.grid__column-4--4{
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:65%;
+}
+.grid__column-3--3{
+    flex-wrap: wrap;
+    width: 33.33%;
+}
+
+.them{
+    display: flex;
+}
